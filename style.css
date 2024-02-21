@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #ffffff;
+
+}
+
+/* Hearder Section */
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+.btn-warning{
+    border: 2.4px;
+
+}
+
+.hero-text{
+    margin-top: 60px;
+}
+.nav-link:hover{
+    color: blue;
+    box-shadow: #6c757d;
+}
+
+
+
