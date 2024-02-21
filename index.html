@@ -24,7 +24,7 @@
 
 <body>
     <!-- navigation bar ------------------------------------------------------------------------------------------------>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Welcome</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -48,9 +48,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#review">Review</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="btn btn-primary mx-3 py-2" href="#contact">Contact</a>
                     </li>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center justify-conter-lg-start pt-5">
                         <a href="" class="btn btn-warning mr-3">Download CV</a>
-                        <a href="" class="btn btn-warning d-none d-sm-block m-4">About Me</a>
+                        <a href="#abouts" class="btn btn-warning d-none d-sm-block m-4">About Me</a>
                     </div>
                 </div>
 
@@ -153,7 +153,7 @@
                     </div>
                     <div class="row">
                         <div class="col d-flex justify-content-center">
-                            <a href="" class="mb-4 btn btn-outline-primary blue w-50">Hire Me</a>
+                            <a href="#contact" class="mb-4 btn btn-outline-primary blue w-50">Hire Me</a>
                         </div>
                     </div>
                 </div>
@@ -439,20 +439,24 @@
                     <div class="card m-3 shadow-lg" style="width: 18rem;">
                         <img src="img/javafx.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Lovers Leap</h5>
-                            <p class="card-text">This is a hotel management Client based desktop application. and this includes the full features for the day to day operation.</p>
-                            <a href="https://github.com/OshanAmarathunga/Lovers_Leap----Hotel-Management-System-JavaFX-" class="btn btn-primary">Git Link ></a>
+                            <h5 class="card-title">Lovers Leap JavaFx Application</h5>
+                            <p class="card-text">This is a hotel management Client based desktop application. and this
+                                includes the full features for the day to day operation.</p>
+                            <a href="https://github.com/OshanAmarathunga/Lovers_Leap----Hotel-Management-System-JavaFX-"
+                                class="btn btn-primary">Git Link ></a>
                         </div>
                     </div>
-                   
+
                 </div>
                 <div class="col-md-4 d-flex justify-content-center">
                     <div class="card m-3 shadow-lg" style="width: 18rem;">
                         <img src="img/java.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Persoanl Portfolio</h5>
-                            <p class="card-text">This is a website which is showing the skills of CSS/Java Script/ and Boostrap.</p>
-                            <a href="#" class="btn btn-primary">Git Link ></a>
+                            <h5 class="card-title">Persoanl Portfolio / Java Script</h5>
+                            <p class="card-text">This is a website which is showing the skills of CSS/Java Script/ and
+                                Boostrap.</p>
+                            <a href="https://github.com/OshanAmarathunga/Personal-Portfolio" class="btn btn-primary">Git
+                                Link ></a>
                         </div>
                     </div>
                 </div>
@@ -461,8 +465,10 @@
                         <img src="img/web.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CLI based java application</h5>
-                            <p class="card-text">This is a samll java based command line based application which can handle day to day operation of burger shop. </p>
-                            <a href="" class="btn btn-primary">Git Link ></a>
+                            <p class="card-text">This is a samll pure java based command line based application which
+                                can handle day to day operation of burger shop. </p>
+                            <a href="https://github.com/OshanAmarathunga/CLI-based-BurgerShop-Management-System"
+                                class="btn btn-primary">Git Link ></a>
                         </div>
                     </div>
                 </div>
@@ -475,6 +481,94 @@
 
         </div>
     </div>
+
+    <!-- Contact ----------------------------------------------------------------------------------------------->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex    align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white " style="-webkit-text-stroke: 1px #dee2e6">
+                    Connect
+                </h1>
+                <h1 class="position-absolute text-uppercase text-primary">
+                    Contatc Me
+                </h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationCustom02" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="validationCustom03" class="form-label">City</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="validationCustom05" class="form-label">Your Contatc No</label>
+                            <input type="text" class="form-control" id="validationCustom05" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid number.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Contatc me Soon...
+                                </label>
+                                <div class="invalid-feedback">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit the Requirement </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <h4>Follow Me</h4>
+            <div class="social-buttons m-4 px-3">
+                <a href="https://www.facebook.com/oshan.amarathunga" class="btn btn-danger btn-social btn-facebook"><i
+                        class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#" class="btn btn-danger btn-social btn-twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="btn btn-danger btn-social btn-instagram"><i class="fab fa-instagram"></i>
+                    Instagram</a>
+                <a href="https://www.linkedin.com/in/oshan-amarathunga-795a89131/"
+                    class="btn btn-danger btn-social btn-linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    
+            </div>
+            <div>
+                <h6>@AllRightReceived!</h6>
+                <a href="#home" class="btn btn-outline-primary position-absolute top-1000 end-0"> ^</a>
+
+            </div>
+        </div>
+    </footer>
+    <br><br>
+
+
 
 
 
